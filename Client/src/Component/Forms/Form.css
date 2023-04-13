@@ -1,0 +1,53 @@
+.addCategory {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 34%;
+    height:40%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 30%;
+    top: 20%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    text-align: center;
+}
+
+.entries{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+label{
+    margin-left:8%;
+    margin-bottom: 4px;
+}
+
+input{
+    margin-left: 12px;
+    margin-bottom: 4px;
+    height:60%;
+    width:50%;
+    border-style: inset;
+}
+
+textarea{
+    width:50%;
+    height:40%;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+select{
+    width:50%;
+    height:40%;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+button{
+    width:60%;
+}
